@@ -69,6 +69,13 @@
                         "img": "img/phpldapadmin.png",
                         "description": "Browser to manage your LDAP server",
                         "link": "/ldap-phpadmin/"
+                    },
+                    {
+                        "id": "portainer",
+                        "title": "portainer",
+                        "img": "img/portainer.png",
+                        "description": "The easiest way to manage docker",
+                        "link": ":9000"
                     }
                 ]
             }
