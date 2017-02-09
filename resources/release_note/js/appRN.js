@@ -77,6 +77,9 @@
             if(element.linkCreate){
                 element.link = createUrl(element.linkCreate.host) + element.linkCreate.endPath;
             }
+            if (element.port) {
+            	element.link =  window.location.protocol + "//" + window.location.host + ":" + element.port;
+            }
         });        
     }
     
